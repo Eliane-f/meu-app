@@ -13,7 +13,7 @@ export default function Login() {
     <View style={styles.container}>
         <Image
           style={styles.logo}
-          source={require('./components/images/fatec-logo.png')}
+          source={require('../components/images/fatec-logo.png')}
       />
         <StyledInput placeholder ="E-mail"
             onChangeText={(text)=>console.log(text)}/>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 120,    
+    width: 200,    
     height: 120,   
     marginBottom: 24,  
   },
