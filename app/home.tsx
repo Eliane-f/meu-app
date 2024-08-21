@@ -10,7 +10,7 @@ export default function Home() {
                     style={styles.logo}
                     source={require('../components/images/reactNative-logo.png')}
                 />
-                <Text>React Native é um framework desenvolvido pelo Facebook para criar aplicativos móveis usando JavaScript e React. Ele permite o desenvolvimento de aplicativos nativos para Android e iOS com uma base de código compartilhada.</Text>
+                <Text>O React Native é um framework desenvolvido pelo Facebook para criar aplicativos móveis usando JavaScript e React. Ele permite o desenvolvimento de aplicativos nativos para Android e iOS com uma base de código compartilhada.</Text>
             </View>
             <View style={styles.row}>
                 <Image
