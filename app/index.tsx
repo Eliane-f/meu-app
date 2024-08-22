@@ -3,6 +3,7 @@ import StyledInput from '../components/input';
 import { StyleSheet, Text, View, Image} from 'react-native';
 import StyledButton from '../components/button';
 import { router } from 'expo-router';
+import { Button, ButtonText } from '@/components/ui/button';
 
 export default function Login() {
 
@@ -19,8 +20,11 @@ export default function Login() {
             onChangeText={(text)=>console.log(text)}/>
         <StyledInput placeholder="Senha"
             onChangeText={(text) => console.log(text)} />
-        <StyledButton text="Acessar o App"
-            onClick={handleLogin} />
+
+        <Button size='lg' variant='solid' onPress={handleLogin } className='bg-green-500 text-bold'>
+          <ButtonText>Login</ButtonText>
+        </Button>
+
       <StatusBar style="auto" />
     </View>
   );
